@@ -1582,15 +1582,23 @@
         "label": "Quantity Error Message"
       },
       {
-        "type": "number",
-        "id": "total_value",
-        "default": 0,
-        "label": "Total Value"
+        "type": "range",
+        "id": "min_quantity",
+        "default": 3,
+        "min": 0,
+        "max": 10,
+        "label": "Minimum Order Quantity"
       },
       {
         "type": "textarea",
         "id": "total_error_message",
         "label": "Total Error Message"
+      },
+      {
+        "type": "number",
+        "id": "total_value",
+        "default": 0,
+        "label": "Minimum Order Total"
       }
     ]
   }
