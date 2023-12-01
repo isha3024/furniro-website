@@ -423,6 +423,7 @@
             </button>
           </noscript>
 
+          {% if settings.cart_threshold_type == 'quantity' and cart.item_count > settings.min_quantity %} 
           <button
             type="submit"
             id="CartDrawer-Checkout"
@@ -435,6 +436,7 @@
           >
             {{ 'sections.cart.checkout' | t }}
           </button>
+        {% endif %} 
         </div>
       </div>
     </div>
