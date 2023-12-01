@@ -1,0 +1,253 @@
+{
+  "sections": {
+    "6a3bb789-ce10-45f5-ae67-e2063ef8c76b": {
+      "type": "image-banner",
+      "blocks": {
+        "287aa2ea-469b-4775-986c-488ce59036d2": {
+          "type": "text",
+          "settings": {
+            "text": "New Arrival",
+            "text_style": "subtitle"
+          }
+        },
+        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover Our New Collection",
+            "heading_size": "h1"
+          }
+        },
+        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet consectutor adipicsing elit. Utelit telles luctus nec ullumcorper mattis",
+            "text_style": "body"
+          }
+        },
+        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "BUY NOW",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "287aa2ea-469b-4775-986c-488ce59036d2",
+        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0",
+        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1",
+        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/scandinavian-interior-mockup-wall-decal-background_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "show_breadcrumbs": true,
+        "desktop_content_position": "middle-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "becfdb78-c1e0-4bd4-adf3-5b12bb23f975": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21145734775064__becfdb78-c1e0-4bd4-adf3-5b12bb23f975-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image-living_room.png",
+            "title": "",
+            "text": "",
+            "link_label": "Living",
+            "link": "#",
+            "view_all_style": "link"
+          }
+        },
+        "template--21145734775064__becfdb78-c1e0-4bd4-adf3-5b12bb23f975-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_106.png",
+            "title": "",
+            "text": "",
+            "link_label": "Dining",
+            "link": "#",
+            "view_all_style": "link"
+          }
+        },
+        "template--21145734775064__becfdb78-c1e0-4bd4-adf3-5b12bb23f975-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group.png",
+            "title": "",
+            "text": "",
+            "link_label": "Bedroom",
+            "link": "#",
+            "view_all_style": "link"
+          }
+        },
+        "f41d321f-20a5-447f-83ac-286a3beb427b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen-image.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Kitchen",
+            "link": "#",
+            "view_all_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--21145734775064__becfdb78-c1e0-4bd4-adf3-5b12bb23f975-column-2",
+        "template--21145734775064__becfdb78-c1e0-4bd4-adf3-5b12bb23f975-column-1",
+        "template--21145734775064__becfdb78-c1e0-4bd4-adf3-5b12bb23f975-column-3",
+        "f41d321f-20a5-447f-83ac-286a3beb427b"
+      ],
+      "custom_css": [
+        ".banner__text {margin-bottom: 20px;}"
+      ],
+      "settings": {
+        "title": "Browse The Range",
+        "heading_size": "h2",
+        "sub_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "sub_text_style": "body",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<strong>Our Products<\/strong>",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "72957209-3611-418d-8d61-63a1ddac2074": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21145734775064__72957209-3611-418d-8d61-63a1ddac2074-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "50+ Beautiful rooms inspiration",
+            "heading_size": "h1"
+          }
+        },
+        "template--21145734775064__72957209-3611-418d-8d61-63a1ddac2074-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our designer already made a lot of beautiful prototype of rooms that inspire you<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--21145734775064__72957209-3611-418d-8d61-63a1ddac2074-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore More",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--21145734775064__72957209-3611-418d-8d61-63a1ddac2074-heading-1",
+        "template--21145734775064__72957209-3611-418d-8d61-63a1ddac2074-text-1",
+        "template--21145734775064__72957209-3611-418d-8d61-63a1ddac2074-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bed-room.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8c268cdf-2a93-4e4a-9817-b0ca75e51942": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21145734775064__8c268cdf-2a93-4e4a-9817-b0ca75e51942-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share your setup with<\/p>"
+          }
+        },
+        "template--21145734775064__8c268cdf-2a93-4e4a-9817-b0ca75e51942-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "#FurniroFurniture",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21145734775064__8c268cdf-2a93-4e4a-9817-b0ca75e51942-text-1",
+        "template--21145734775064__8c268cdf-2a93-4e4a-9817-b0ca75e51942-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/collage-image.jpg",
+        "show_solid_text": false,
+        "solid_text": "Text",
+        "show_bottom_line": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
+    "becfdb78-c1e0-4bd4-adf3-5b12bb23f975",
+    "featured_collection",
+    "72957209-3611-418d-8d61-63a1ddac2074",
+    "8c268cdf-2a93-4e4a-9817-b0ca75e51942"
+  ]
+}

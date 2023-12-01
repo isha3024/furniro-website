@@ -1,0 +1,59 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "6e0c08d4-cd4c-439c-b5e2-a483bba29ec2": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": false
+          }
+        },
+        "55172ef6-3a6a-4cfa-b790-88739b47891f": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Links",
+            "menu": "footer"
+          }
+        },
+        "98c04568-d5c8-4952-85fa-c9955755955e": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Help",
+            "menu": "help-menu"
+          }
+        },
+        "d6067a88-f009-4bdb-b7a4-4c860a7f6b4c": {
+          "type": "newsletter",
+          "settings": {
+            "newsletter_enable": true,
+            "newsletter_heading": "Subscribe to our emails"
+          }
+        }
+      },
+      "block_order": [
+        "6e0c08d4-cd4c-439c-b5e2-a483bba29ec2",
+        "55172ef6-3a6a-4cfa-b790-88739b47891f",
+        "98c04568-d5c8-4952-85fa-c9955755955e",
+        "d6067a88-f009-4bdb-b7a4-4c860a7f6b4c"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

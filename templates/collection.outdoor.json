@@ -1,0 +1,221 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "3a453716-83a7-4b12-9cbf-602b86de9884": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21145734512920__3a453716-83a7-4b12-9cbf-602b86de9884-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21145734512920__3a453716-83a7-4b12-9cbf-602b86de9884-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/background-image-collection.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "show_breadcrumbs": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "f4cc97e5-42e6-4d2e-b751-0f97742bb911": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21558265086232__f4cc97e5-42e6-4d2e-b751-0f97742bb911-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Outdoor Furniture",
+            "heading_size": "h2"
+          }
+        },
+        "template--21558265086232__f4cc97e5-42e6-4d2e-b751-0f97742bb911-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Make the best use of your outdoors by having stylishly functional furniture.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21558265086232__f4cc97e5-42e6-4d2e-b751-0f97742bb911-heading-1",
+        "template--21558265086232__f4cc97e5-42e6-4d2e-b751-0f97742bb911-text-1"
+      ],
+      "settings": {
+        "show_solid_text": false,
+        "solid_text": "",
+        "show_bottom_line": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "96d08b4d-7553-40ad-bcb4-07d32aa653b5": {
+      "type": "subcollection-list",
+      "blocks": {
+        "template--21558265086232__96d08b4d-7553-40ad-bcb4-07d32aa653b5-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/outdoor-1.jpg",
+            "link_label": "Swing Chair",
+            "category_link": "#"
+          }
+        },
+        "template--21558265086232__96d08b4d-7553-40ad-bcb4-07d32aa653b5-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/outdoor-2.jpg",
+            "link_label": "Outdoor Chair",
+            "category_link": "#"
+          }
+        },
+        "template--21558265086232__96d08b4d-7553-40ad-bcb4-07d32aa653b5-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/outdoor-3.jpg",
+            "link_label": "Outdoor Light",
+            "category_link": "#"
+          }
+        },
+        "2f6d514f-4254-4cd6-ae94-df338035c957": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/outdoor-4.jpg",
+            "link_label": "Balcony Planters",
+            "category_link": "#"
+          }
+        },
+        "9409c6fb-784a-4524-87c6-4dd3741adcbb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/outdoor-5.jpg",
+            "link_label": "Outdoor Sofa",
+            "category_link": "#"
+          }
+        },
+        "f346520c-7d6f-405b-b24a-031a3a4cd614": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/outdoor-8.jpg",
+            "link_label": "Garden Chair",
+            "category_link": "#"
+          }
+        },
+        "57c1e8da-d1c2-401f-8dee-826037f1c791": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/outdoor-6.jpg",
+            "link_label": "Hammock Swing",
+            "category_link": "#"
+          }
+        },
+        "b4863bfe-3dfe-4bbb-b764-5e3d250fbbbb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/outdoor-9.jpg",
+            "link_label": "Outdoor Dining",
+            "category_link": "#"
+          }
+        },
+        "c217fcf4-7596-455a-8d1b-b8966883cfc2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/outdoor-10.jpg",
+            "link_label": "Balcony Sets",
+            "category_link": "#"
+          }
+        },
+        "06a55d1f-480f-4e40-9ba3-129aeba5c6be": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/outdoor-12.jpg",
+            "link_label": "Balcony Decor",
+            "category_link": "#"
+          }
+        },
+        "37b588f0-bad3-4467-8aa7-9440fdd6a563": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/outdoor-13.jpg",
+            "link_label": "Gate Lights",
+            "category_link": "#"
+          }
+        },
+        "22184533-c32c-45cb-b596-d5c98dd11dc1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/outdoor-14.jpg",
+            "link_label": "Table Sets",
+            "category_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--21558265086232__96d08b4d-7553-40ad-bcb4-07d32aa653b5-column-1",
+        "template--21558265086232__96d08b4d-7553-40ad-bcb4-07d32aa653b5-column-2",
+        "template--21558265086232__96d08b4d-7553-40ad-bcb4-07d32aa653b5-column-3",
+        "2f6d514f-4254-4cd6-ae94-df338035c957",
+        "9409c6fb-784a-4524-87c6-4dd3741adcbb",
+        "f346520c-7d6f-405b-b24a-031a3a4cd614",
+        "57c1e8da-d1c2-401f-8dee-826037f1c791",
+        "b4863bfe-3dfe-4bbb-b764-5e3d250fbbbb",
+        "c217fcf4-7596-455a-8d1b-b8966883cfc2",
+        "06a55d1f-480f-4e40-9ba3-129aeba5c6be",
+        "37b588f0-bad3-4467-8aa7-9440fdd6a563",
+        "22184533-c32c-45cb-b596-d5c98dd11dc1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "3a453716-83a7-4b12-9cbf-602b86de9884",
+    "f4cc97e5-42e6-4d2e-b751-0f97742bb911",
+    "96d08b4d-7553-40ad-bcb4-07d32aa653b5",
+    "product-grid"
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "3a453716-83a7-4b12-9cbf-602b86de9884": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21145734512920__3a453716-83a7-4b12-9cbf-602b86de9884-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21145734512920__3a453716-83a7-4b12-9cbf-602b86de9884-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/background-image-collection.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "show_breadcrumbs": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "94fe15a5-4bf4-48a3-a59a-7b4896009eff": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21557807612184__94fe15a5-4bf4-48a3-a59a-7b4896009eff-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Living Room Furniture",
+            "heading_size": "h2"
+          }
+        },
+        "template--21557807612184__94fe15a5-4bf4-48a3-a59a-7b4896009eff-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When it comes to decorating any home, the living room furniture is usually first thought that strikes in every mind. To fulfil all your needs, the furniture for any kind of drawing room set up is available at Wooden Street in a versatile range. From being a formal space reserved for entertaining guests or very casual space, the right arrangement of our furniture in your living area can accentuate the level of your comfort. So, what are you waiting for? Scroll down to explore our impeccable collection of best living room furniture!<\/p>",
+            "show_read_more": true
+          }
+        }
+      },
+      "block_order": [
+        "template--21557807612184__94fe15a5-4bf4-48a3-a59a-7b4896009eff-heading-1",
+        "template--21557807612184__94fe15a5-4bf4-48a3-a59a-7b4896009eff-text-1"
+      ],
+      "settings": {
+        "show_solid_text": false,
+        "solid_text": "Text",
+        "show_bottom_line": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "4084d568-9581-492e-9512-f2aacd4583e8": {
+      "type": "subcollection-list",
+      "blocks": {
+        "template--21557807612184__4084d568-9581-492e-9512-f2aacd4583e8-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/living-1.jpg",
+            "link_label": "Coffee Tables",
+            "category_link": "#"
+          }
+        },
+        "template--21557807612184__4084d568-9581-492e-9512-f2aacd4583e8-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/living-2.jpg",
+            "link_label": "Sofa Sets",
+            "category_link": "#"
+          }
+        },
+        "template--21557807612184__4084d568-9581-492e-9512-f2aacd4583e8-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bed-2.jpg",
+            "link_label": "TV Units",
+            "category_link": "#"
+          }
+        },
+        "ca01acd3-d993-4ddb-84da-dd4b2f1e2313": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/living-4.jpg",
+            "link_label": "Lounge Chair",
+            "category_link": "#"
+          }
+        },
+        "7c76020c-75f5-44ec-96b8-1e149247f593": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/living-5.jpg",
+            "link_label": "Nest of Tables",
+            "category_link": "#"
+          }
+        },
+        "3fba21a7-1b1a-49e3-80a5-8679f5b58a10": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/living-5_17daed06-e73c-413a-b1bd-2af71bddf684.jpg",
+            "link_label": "Wall Shelves",
+            "category_link": "#"
+          }
+        },
+        "5d9a19f7-2493-4578-8e8d-aca2b2b3a51c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/living-7.jpg",
+            "link_label": "Cabinets",
+            "category_link": "#"
+          }
+        },
+        "57e7b379-b89a-46b0-acca-59b05e004418": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/living-8.jpg",
+            "link_label": "Book Shelves",
+            "category_link": "#"
+          }
+        },
+        "7e24722e-9bfa-442e-9763-d87e66c3dc1f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/living-9.jpg",
+            "link_label": "Shoe Racks",
+            "category_link": "#"
+          }
+        },
+        "3415ff21-f2e2-4366-ba69-53f35bdb65ca": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/living-10.jpg",
+            "link_label": "Recliners",
+            "category_link": "#"
+          }
+        },
+        "613929cf-b265-426d-ab9a-cbab2dd17578": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/living-11.jpg",
+            "link_label": "Side Tables",
+            "category_link": "#"
+          }
+        },
+        "02448d46-8870-4420-8ff7-0879a8596e52": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/living-12.jpg",
+            "link_label": "Benches",
+            "category_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--21557807612184__4084d568-9581-492e-9512-f2aacd4583e8-column-1",
+        "template--21557807612184__4084d568-9581-492e-9512-f2aacd4583e8-column-3",
+        "template--21557807612184__4084d568-9581-492e-9512-f2aacd4583e8-column-2",
+        "ca01acd3-d993-4ddb-84da-dd4b2f1e2313",
+        "7c76020c-75f5-44ec-96b8-1e149247f593",
+        "3fba21a7-1b1a-49e3-80a5-8679f5b58a10",
+        "5d9a19f7-2493-4578-8e8d-aca2b2b3a51c",
+        "57e7b379-b89a-46b0-acca-59b05e004418",
+        "7e24722e-9bfa-442e-9763-d87e66c3dc1f",
+        "3415ff21-f2e2-4366-ba69-53f35bdb65ca",
+        "613929cf-b265-426d-ab9a-cbab2dd17578",
+        "02448d46-8870-4420-8ff7-0879a8596e52"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "3a453716-83a7-4b12-9cbf-602b86de9884",
+    "94fe15a5-4bf4-48a3-a59a-7b4896009eff",
+    "4084d568-9581-492e-9512-f2aacd4583e8",
+    "product-grid"
+  ]
+}

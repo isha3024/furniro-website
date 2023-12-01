@@ -1,0 +1,221 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "3a453716-83a7-4b12-9cbf-602b86de9884": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21145734512920__3a453716-83a7-4b12-9cbf-602b86de9884-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21145734512920__3a453716-83a7-4b12-9cbf-602b86de9884-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/background-image-collection.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "show_breadcrumbs": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "76cebc31-7a6c-4927-918c-60235e521aeb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21557807579416__76cebc31-7a6c-4927-918c-60235e521aeb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bedroom Furniture",
+            "heading_size": "h2"
+          }
+        },
+        "template--21557807579416__76cebc31-7a6c-4927-918c-60235e521aeb-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Buy <a href=\"\/collections\/bedroom\" title=\"Bedroom\">Bedroom Furniture Sets<\/a> that can add a style and comfort to your home interior.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21557807579416__76cebc31-7a6c-4927-918c-60235e521aeb-heading-1",
+        "template--21557807579416__76cebc31-7a6c-4927-918c-60235e521aeb-text-1"
+      ],
+      "settings": {
+        "show_solid_text": false,
+        "solid_text": "Text",
+        "show_bottom_line": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "df585fdc-b942-412d-99f1-69e7178afc14": {
+      "type": "subcollection-list",
+      "blocks": {
+        "template--21557807579416__df585fdc-b942-412d-99f1-69e7178afc14-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bed-1.jpg",
+            "link_label": "Beds",
+            "category_link": "#"
+          }
+        },
+        "template--21557807579416__df585fdc-b942-412d-99f1-69e7178afc14-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bed-2.jpg",
+            "link_label": "TV Units",
+            "category_link": "#"
+          }
+        },
+        "template--21557807579416__df585fdc-b942-412d-99f1-69e7178afc14-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bed-3.jpg",
+            "link_label": "Wradrobes",
+            "category_link": "#"
+          }
+        },
+        "5f9f69e4-1a2f-47cb-aab4-7b638852b3ea": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bed-4.jpg",
+            "link_label": "Besides Tables",
+            "category_link": "#"
+          }
+        },
+        "079125e5-ffc7-4fb4-b3d8-52e92fb3d369": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bed-5.jpg",
+            "link_label": "Photo Frames",
+            "category_link": "#"
+          }
+        },
+        "8ff838a5-eac2-4659-b9af-6df0b4c82716": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bed-6.jpg",
+            "link_label": "Bed Sheets",
+            "category_link": "#"
+          }
+        },
+        "062ea21c-d11e-421e-8f55-d32a075e70d2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bed-7.jpg",
+            "link_label": "Mattress",
+            "category_link": "#"
+          }
+        },
+        "e2ab5d9a-95c2-474e-8e5c-e8be347a84a0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bed-8.jpg",
+            "link_label": "Sofa Cum Bed",
+            "category_link": "#"
+          }
+        },
+        "03bcdc84-b6d3-40c4-9c1d-1a908e134476": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bed-9.jpg",
+            "link_label": "Blanket Box",
+            "category_link": "#"
+          }
+        },
+        "3ac7789d-f3fd-4566-b17d-3522c7fde2ae": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bed-10_83714b28-76b3-4a61-84e5-ea75a05ac37d.jpg",
+            "link_label": "Dressing Tables",
+            "category_link": "#"
+          }
+        },
+        "bfae29b8-0401-4db9-997a-6c3a424e53f2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bed-11.jpg",
+            "link_label": "Wall Mirros",
+            "category_link": "#"
+          }
+        },
+        "74895473-fcde-49e1-9e19-21f27cf707c1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bed-12.jpg",
+            "link_label": "Lamp & Lights",
+            "category_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--21557807579416__df585fdc-b942-412d-99f1-69e7178afc14-column-1",
+        "template--21557807579416__df585fdc-b942-412d-99f1-69e7178afc14-column-2",
+        "template--21557807579416__df585fdc-b942-412d-99f1-69e7178afc14-column-3",
+        "5f9f69e4-1a2f-47cb-aab4-7b638852b3ea",
+        "079125e5-ffc7-4fb4-b3d8-52e92fb3d369",
+        "8ff838a5-eac2-4659-b9af-6df0b4c82716",
+        "062ea21c-d11e-421e-8f55-d32a075e70d2",
+        "e2ab5d9a-95c2-474e-8e5c-e8be347a84a0",
+        "03bcdc84-b6d3-40c4-9c1d-1a908e134476",
+        "3ac7789d-f3fd-4566-b17d-3522c7fde2ae",
+        "bfae29b8-0401-4db9-997a-6c3a424e53f2",
+        "74895473-fcde-49e1-9e19-21f27cf707c1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "3a453716-83a7-4b12-9cbf-602b86de9884",
+    "76cebc31-7a6c-4927-918c-60235e521aeb",
+    "df585fdc-b942-412d-99f1-69e7178afc14",
+    "product-grid"
+  ]
+}

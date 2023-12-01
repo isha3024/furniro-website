@@ -1,0 +1,180 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="desc-info-reviews__wrapper color-{{ section.settings.color_scheme }}">
+  <div class="inner__wrapper page-width section-{{ section.id }}-padding">
+    <div class="tabContainer">
+      <div class="buttonContainer">
+        {% for block in section.blocks limit:3 %}
+          <div class="tab__title" onclick="showPanel({{ forloop.index0 }})">
+            <p>{{ block.settings.text-1 }}</p>
+          </div>
+        {% endfor %}
+      </div>
+      {% for block in section.blocks %}
+        {% if block.settings.text-1 == 'Description'  %}
+          <div class="tabPanel">
+            <p>{{ block.settings.text-1 }}</p>
+          </div>
+        {% else %}
+          <div class="tabPanel">
+            <p>{{ block.settings.text }}</p>
+          </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+  const tabButtons = document.querySelectorAll('.buttonContainer .tab__title');
+  const tabPanels = document.querySelectorAll('.tabPanel');
+  const showPanel = (panelIndex) => {
+    tabPanels.forEach(function(panel){
+      panel.style.display = 'none';
+      panel.classList.remove('active');
+    });
+    tabPanels[panelIndex].style.display = 'block';
+    tabPanels[panelIndex].classList.add('active');
+    tabButtons.forEach(function(button){
+      button.classList.remove('active');
+    })
+    tabButtons[panelIndex].classList.add('active');
+  }
+  showPanel(0);
+</script>
+
+
+{% schema %}
+  {
+    "name": "t:sections.desc-info-reviews.name",
+    "tag": "section",
+    "class": "section",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "title",
+        "default": "Desc-Info-Reviews",
+        "label": "t:sections.desc-info-reviews.settings.title.label"
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "h2",
+            "label": "t:sections.all.heading_size.options__1.label"
+          },
+          {
+            "value": "h1",
+            "label": "t:sections.all.heading_size.options__2.label"
+          },
+          {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+        ],
+        "default": "h1",
+        "label": "t:sections.all.heading_size.label"
+      },
+      {
+        "type": "select",
+        "id": "color_scheme",
+        "options": [
+          {
+            "value": "accent-1",
+            "label": "t:sections.all.colors.accent_1.label"
+          },
+          {
+            "value": "accent-2",
+            "label": "t:sections.all.colors.accent_2.label"
+          },
+          {
+            "value": "background-1",
+            "label": "t:sections.all.colors.background_1.label"
+          },
+          {
+            "value": "background-2",
+            "label": "t:sections.all.colors.background_2.label"
+          },
+          {
+            "value": "inverse",
+            "label": "t:sections.all.colors.inverse.label"
+          }
+        ],
+        "default": "background-1",
+        "label": "t:sections.all.colors.label",
+        "info": "t:sections.all.colors.has_cards_info"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.desc-info-reviews.blocks.column.name",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "text-1",
+            "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "label": "t:sections.desc-info-reviews.blocks.column.settings.title.label"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "label": "t:sections.desc-info-reviews.blocks.column.settings.text.label"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "t:sections.desc-info-reviews.presets.name"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

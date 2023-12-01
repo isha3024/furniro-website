@@ -1,0 +1,221 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "3a453716-83a7-4b12-9cbf-602b86de9884": {
+      "type": "image-banner",
+      "blocks": {
+        "template--21145734512920__3a453716-83a7-4b12-9cbf-602b86de9884-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--21145734512920__3a453716-83a7-4b12-9cbf-602b86de9884-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/background-image-collection.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "show_breadcrumbs": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "283e09e8-7c82-4079-8017-36f003e47b3a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21557807546648__283e09e8-7c82-4079-8017-36f003e47b3a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kitchen Furniture",
+            "heading_size": "h2"
+          }
+        },
+        "template--21557807546648__283e09e8-7c82-4079-8017-36f003e47b3a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wooden Kitchen Furniture enhance mood and decorum of the area.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21557807546648__283e09e8-7c82-4079-8017-36f003e47b3a-heading-1",
+        "template--21557807546648__283e09e8-7c82-4079-8017-36f003e47b3a-text-1"
+      ],
+      "settings": {
+        "show_solid_text": false,
+        "solid_text": "Text",
+        "show_bottom_line": false,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "6f249365-1a91-4f93-9cc1-411533da0b46": {
+      "type": "subcollection-list",
+      "blocks": {
+        "template--21557807546648__6f249365-1a91-4f93-9cc1-411533da0b46-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen-1.jpg",
+            "link_label": "6 Seater Dining Table",
+            "category_link": "#"
+          }
+        },
+        "template--21557807546648__6f249365-1a91-4f93-9cc1-411533da0b46-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen-2.jpg",
+            "link_label": "Modular Kitchen",
+            "category_link": "#"
+          }
+        },
+        "c61f8bd7-f115-4480-b081-2e914b8ac46f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen-3.jpg",
+            "link_label": "Dinning Tables",
+            "category_link": "#"
+          }
+        },
+        "2b189917-5eff-4c96-ad45-804b25047bde": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen-4_708397f7-5d62-43c1-896e-4c6dba77d955.jpg",
+            "link_label": "Bar Cabinets",
+            "category_link": "#"
+          }
+        },
+        "38117edb-c79a-4f2a-a10e-4b01eb7e4c05": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen-5_2a49cb51-974e-4b79-aa58-f2537dc02bd5.jpg",
+            "link_label": "Bar Trolleys",
+            "category_link": "#"
+          }
+        },
+        "f9e1ac7e-a6ac-45c2-a4d8-473183a706b8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen-6.jpg",
+            "link_label": "Crockery Units",
+            "category_link": "#"
+          }
+        },
+        "f30f524f-e5e1-49d4-8895-0d82ab542023": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen-7.jpg",
+            "link_label": "4 Seater Dining Table",
+            "category_link": "#"
+          }
+        },
+        "8c8a207c-a6bb-498b-bf77-37d61314f1d6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen-8.jpg",
+            "link_label": "Kitchen Cabinet",
+            "category_link": "#"
+          }
+        },
+        "cea0bed7-a3b2-4321-84aa-c4504f99f35c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen-2.jpg",
+            "link_label": "Dining Chairs",
+            "category_link": "#"
+          }
+        },
+        "a586e8c1-fcff-4b28-bf90-ca2a753d1f5f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen-10.jpg",
+            "link_label": "Bar Stools",
+            "category_link": "#"
+          }
+        },
+        "bbaa22af-aec8-4173-beed-8b61fa536d66": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen-11.jpg",
+            "link_label": "Kitchen Shelves",
+            "category_link": "#"
+          }
+        },
+        "7b2d5477-0e75-42fa-9f33-a5d816ae7327": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kitchen-12.jpg",
+            "link_label": "Wine Racks",
+            "category_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--21557807546648__6f249365-1a91-4f93-9cc1-411533da0b46-column-1",
+        "template--21557807546648__6f249365-1a91-4f93-9cc1-411533da0b46-column-2",
+        "c61f8bd7-f115-4480-b081-2e914b8ac46f",
+        "2b189917-5eff-4c96-ad45-804b25047bde",
+        "38117edb-c79a-4f2a-a10e-4b01eb7e4c05",
+        "f9e1ac7e-a6ac-45c2-a4d8-473183a706b8",
+        "f30f524f-e5e1-49d4-8895-0d82ab542023",
+        "8c8a207c-a6bb-498b-bf77-37d61314f1d6",
+        "cea0bed7-a3b2-4321-84aa-c4504f99f35c",
+        "a586e8c1-fcff-4b28-bf90-ca2a753d1f5f",
+        "bbaa22af-aec8-4173-beed-8b61fa536d66",
+        "7b2d5477-0e75-42fa-9f33-a5d816ae7327"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "3a453716-83a7-4b12-9cbf-602b86de9884",
+    "283e09e8-7c82-4079-8017-36f003e47b3a",
+    "6f249365-1a91-4f93-9cc1-411533da0b46",
+    "product-grid"
+  ]
+}

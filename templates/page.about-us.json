@@ -1,0 +1,266 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "ad955b55-61e2-4959-8dc8-4f6148a0be42": {
+      "type": "image-banner",
+      "blocks": {
+        "29df4fab-bef4-41ae-b14f-d8d5326d0197": {
+          "type": "heading",
+          "settings": {
+            "heading": "About",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "29df4fab-bef4-41ae-b14f-d8d5326d0197"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/background-image-collection.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "show_breadcrumbs": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "47983627-c17c-4d8d-af31-3bf2ca351669": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21468343894296__47983627-c17c-4d8d-af31-3bf2ca351669-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "We Help You Experience",
+            "heading_size": "h1"
+          }
+        },
+        "template--21468343894296__47983627-c17c-4d8d-af31-3bf2ca351669-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Furniro is synonymous to well-made furniture that brings alive the aesthetics of your home, giving it an elegant look and a luxurious feel. We aim to make a difference in the way people shop for their furniture and home decor needs. We believe choosing furniture should be easy to acquire and pleasant to look at and this approach helps us stay unique in the industry.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21468343894296__47983627-c17c-4d8d-af31-3bf2ca351669-heading-1",
+        "template--21468343894296__47983627-c17c-4d8d-af31-3bf2ca351669-text-1"
+      ],
+      "settings": {
+        "show_solid_text": true,
+        "solid_text": "Luxury & Elegance",
+        "show_bottom_line": true,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "9e711d1f-0e86-4283-a943-fb09205ff821": {
+      "type": "custom-counter",
+      "blocks": {
+        "a7278ddf-dc8a-491c-93b8-2cb68e0051ae": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-icon.svg",
+            "title": "",
+            "text": "<p>Experience Stores Across India<\/p>",
+            "stop_value": 90
+          }
+        },
+        "8b9d4ea4-aac5-427f-9656-48de22c9898e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thumb-icon.svg",
+            "title": "",
+            "text": "<p>Satisfied Customers All Over<\/p>",
+            "stop_value": 10000
+          }
+        },
+        "d86e81cc-bd3e-4550-9697-2b080c9c9570": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/truck-icon.svg",
+            "title": "",
+            "text": "<p>Delivery Centers Across India<\/p>",
+            "stop_value": 350
+          }
+        },
+        "bacd3070-9602-427e-b037-bde89ee23179": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product-box.svg",
+            "title": "",
+            "text": "<p>Furniture & Furnishing Products<\/p>",
+            "stop_value": 30
+          }
+        }
+      },
+      "block_order": [
+        "a7278ddf-dc8a-491c-93b8-2cb68e0051ae",
+        "8b9d4ea4-aac5-427f-9656-48de22c9898e",
+        "d86e81cc-bd3e-4550-9697-2b080c9c9570",
+        "bacd3070-9602-427e-b037-bde89ee23179"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "0addcd0c-a63a-4184-9b04-cd870d65e3c0": {
+      "type": "images-grid",
+      "blocks": {
+        "fdd1ecf6-aade-4f3a-bb48-49525dbd941b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store-mumbai.jpg",
+            "text": "Thane, Mumbai",
+            "store_link": "#"
+          }
+        },
+        "df35b636-d9ec-4723-b8e7-52b221490eb3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store-delhi.jpg",
+            "text": "Kirti Nagar, Delhi",
+            "store_link": "#"
+          }
+        },
+        "13252330-dfd6-4f24-a34b-41929c744c5b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store-udaipur.jpg",
+            "text": "Udaipur",
+            "store_link": "#"
+          }
+        },
+        "359e5acf-08f2-4885-ba92-d50be3e0a210": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store-banglore.jpg",
+            "text": "Kalyan Nagar, Banglore",
+            "store_link": "#"
+          }
+        },
+        "72c611e5-0eae-4e2c-9d4a-d7ab0deb02e0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store-lucknow.jpg",
+            "text": "Lucknow Store",
+            "store_link": "#"
+          }
+        },
+        "8611789e-2595-4d16-829e-4dbdddb40c90": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store-banglore-2.jpg",
+            "text": "HSR Layout, Banglore",
+            "store_link": "#"
+          }
+        },
+        "40d461c9-a2d2-4a61-be8f-fe7db5b5647c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store-banglore-3.jpg",
+            "text": "Whitefield, Banglore",
+            "store_link": "#"
+          }
+        },
+        "6d876a6d-b385-4b14-81f7-e195c62dd9c2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store-pune.jpg",
+            "text": "Kharadi, Pune",
+            "store_link": "#"
+          }
+        },
+        "dc094a7a-3400-4452-8437-2deb997c23eb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store-banglore-4.jpg",
+            "text": "Whitefield, Banglore",
+            "store_link": "#"
+          }
+        },
+        "cfa18f93-3e5b-4067-aca0-adbedade9b24": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store-comman.jpg",
+            "text": "",
+            "store_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "fdd1ecf6-aade-4f3a-bb48-49525dbd941b",
+        "df35b636-d9ec-4723-b8e7-52b221490eb3",
+        "13252330-dfd6-4f24-a34b-41929c744c5b",
+        "359e5acf-08f2-4885-ba92-d50be3e0a210",
+        "72c611e5-0eae-4e2c-9d4a-d7ab0deb02e0",
+        "8611789e-2595-4d16-829e-4dbdddb40c90",
+        "40d461c9-a2d2-4a61-be8f-fe7db5b5647c",
+        "6d876a6d-b385-4b14-81f7-e195c62dd9c2",
+        "dc094a7a-3400-4452-8437-2deb997c23eb",
+        "cfa18f93-3e5b-4067-aca0-adbedade9b24"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "86763df3-c4e3-4297-8f87-5707d34abeed": {
+      "type": "newsletter",
+      "blocks": {
+        "template--21468343894296__86763df3-c4e3-4297-8f87-5707d34abeed-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign up and get a chance to win the giveaway of the week.<\/p>"
+          }
+        },
+        "template--21468343894296__86763df3-c4e3-4297-8f87-5707d34abeed-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--21468343894296__86763df3-c4e3-4297-8f87-5707d34abeed-paragraph-1",
+        "template--21468343894296__86763df3-c4e3-4297-8f87-5707d34abeed-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ad955b55-61e2-4959-8dc8-4f6148a0be42",
+    "47983627-c17c-4d8d-af31-3bf2ca351669",
+    "9e711d1f-0e86-4283-a943-fb09205ff821",
+    "0addcd0c-a63a-4184-9b04-cd870d65e3c0",
+    "86763df3-c4e3-4297-8f87-5707d34abeed"
+  ]
+}
