@@ -129,6 +129,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "hydrogen",
+    "quantity_error_message": "Please add minimum of 3 products to checkout faster.",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
