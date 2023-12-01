@@ -1555,6 +1555,27 @@
         "id": "cart_drawer_collection",
         "label": "t:settings_schema.cart.settings.cart_drawer.collection.label",
         "info": "t:settings_schema.cart.settings.cart_drawer.collection.info"
+      },
+      {
+        "type": "header",
+        "content": "Cart Thresholds"
+      },
+      {
+        "type": "select",
+        "id": "cart_threshold_type",
+        "options": [
+          {
+            "value": "quantity",
+            "label": "Quantity"
+          }
+        ],
+        "default": "quantity",
+        "label": "Cart Threshold"
+      },
+      {
+        "type": "textarea",
+        "id": "quantity_error_message",
+        "label": "Quantity Error Message"
       }
     ]
   }
