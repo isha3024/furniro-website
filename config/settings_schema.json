@@ -1567,6 +1567,10 @@
           {
             "value": "quantity",
             "label": "Quantity"
+          },
+          {
+            "value": "total",
+            "label": "Total"
           }
         ],
         "default": "quantity",
@@ -1576,6 +1580,17 @@
         "type": "textarea",
         "id": "quantity_error_message",
         "label": "Quantity Error Message"
+      },
+      {
+        "type": "number",
+        "id": "total_value",
+        "default": 0,
+        "label": "Total Value"
+      },
+      {
+        "type": "textarea",
+        "id": "total_error_message",
+        "label": "Total Error Message"
       }
     ]
   }
