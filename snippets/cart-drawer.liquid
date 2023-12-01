@@ -69,7 +69,7 @@
       {%if settings.cart_threshold_type == 'quantity' %}
         {%  unless cart.item_count >= settings.min_quantity  %} 
           <p>
-            <small class="tax-note">{{  settings.quantity_error_message  }}</small>
+            <small class="tax-note" style="color: crimson; font-weight:700; letter-spacing: 1px">{{  settings.quantity_error_message  }}</small>
           </p>
         {% endunless %}
       {% endif %}
